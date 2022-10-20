@@ -1,0 +1,60 @@
+body{
+    margin: 100px;
+    display: block;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    font-style: normal
+}
+.buton{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.base46{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cesar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(103, 183, 236);
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+#big {
+    width: 100px;
+    border-radius: 5px
+}
+
+textarea{
+    border-radius: 10px;
+    margin: 10px;
+    border-color: rgb(0, 0, 0);
+}
+
+.texto{
+    float: right;
+    border-radius: 10px;
+    margin: 10px;
+}
+  h1{
+      align-items: center;
+      font-family: sans-serif;
+  }
+
+  span{
+      font-size: 25px;
+      font-family: sans-serif;
+  }

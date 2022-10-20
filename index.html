@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Codificador</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/background.css">
+</head>
+<body>
+        <div class='box'>
+                <div class='wave -one'></div>
+                <div class='wave -two'></div>
+                <div class='wave -three'></div>
+              </div>
+              <br/><br/>
+              <br/><br/>
+              <br/><br/>
+    <!--Cifra de cesar-->
+ <center>   <h1 id="label">Cifra de césar: </h1></center>
+
+<div class="cesar">
+
+        <button onclick="prev()">-</button>
+        <span id="key">1</span>
+        <button onclick="next()">+</button>
+        <br/><br/>
+        <br/><br/>
+        <br/><br/>
+        
+        &nbsp <input type="text" id="input"/> &nbsp
+        <button onclick="calculate()" id="big">Codificar</button>
+       </div>
+      <center> <textarea id="output" rows="5" cols="35" maxlength="25" placeholder="Resultado aqui"></textarea></center>
+    <br>
+    <br>
+    <br>
+  
+
+    <!--Base 64-->
+   <center> <h1>Base64</h1></center>
+ <center>  <div class="buton"><input type="button" value="codificar" id="codificar" onclick="codifica()">
+    <input type="button" value="decodificar" id="decodificar" onclick="decodifica()"></center>
+<div class="base46">
+    
+    <div class="buton">
+</div>
+    <br>
+    <br>
+
+  <div class="texto"><textarea id="resultado" placeholder="Texto" rows="5" cols="35"></textarea>
+  </div>  
+</div>
+
+
+    <script src="js/base64.js"></script>
+    <script src="js/cifra.js"></script>
+</body>
+</html>
