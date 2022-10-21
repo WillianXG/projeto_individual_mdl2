@@ -58,3 +58,8 @@ textarea{
       font-size: 25px;
       font-family: sans-serif;
   }
+
+input {
+    background-color: blue;
+    border-radius: 10px;
+}
